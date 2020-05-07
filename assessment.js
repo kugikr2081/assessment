@@ -24,7 +24,7 @@ assessmentButton.onclick = () => {
     
     removeAllChildren(resultDivided);
 
-    const header = document.createElement('h3')
+    const header = document.createElement('h3');
     header.innerText = '診断結果';
     resultDivided.appendChild(header);
 
